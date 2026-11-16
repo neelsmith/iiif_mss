@@ -3,7 +3,7 @@ title: Apps for working with illustrated manuscripts
 ---
 
 
-> Browse and view images for manuscripts documented by published IIIF manifests.
+> *Browse and view images for manuscripts documented by published IIIF manifests.*
 
 
 - [browse texts](./browsetexts.html): find documented manuscripts containing those texts
