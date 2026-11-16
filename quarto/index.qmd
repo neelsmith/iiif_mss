@@ -6,5 +6,5 @@ title: Apps for working with illustrated manuscripts
 > Browse and view images for manuscripts documented by published IIIF manifests.
 
 
-- [browsetexts.html](./browsetexts.html)
-- [browsecollections.html](./browsecollections.html)
+- [browse texts](./browsetexts.html): find documented manuscripts containing those texts
+- [browse manuscript collections](./browsecollections.html): find texts occuring in manuscripts belonging to that collection
