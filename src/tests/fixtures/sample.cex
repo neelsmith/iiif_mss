@@ -1,0 +1,31 @@
+#!version
+2026t
+#!mss
+biblissima|label|manifest|manifest_license|manifest_credits|collection
+ark:/1|Lib A, MS 1|https://example.org/a1/manifest.json|PDM|Credit A|Lib A
+ark:/1|Lib A, MS 1|https://example.org/a1-second/manifest.json|PDM|Credit A|Lib A
+ark:/2|Lib A, MS 2|https://example.org/a2/manifest.json|PDM|Credit A|Lib A
+ark:/3|Lib B, MS 3|https://example.org/b3/manifest with space.json|CC|Credit B|Lib B
+ark:/4|"Lib C, MS 4 | Lib C, MS 5"|https://example.org/c4/manifest.json||Credit C|Lib C
+ark:/4|"Lib C, MS 4 | Lib C, MS 5"|https://example.org/c5/manifest.json||Credit C|Lib C
+ark:/5|Orphan MS|https://example.org/o5/manifest.json|||
+ark:/6|Lib A, MS 6 <b>|https://example.org/a6/manifest.json|PDM|Credit A|Lib A
+#!texts
+biblissima|urn|group|work
+ark:/w1|urn:cts:greekLit:tlg0012.tlg001:|Homerus|Ilias
+ark:/w2|urn:cts:greekLit:tlg0012.tlg002:|Homerus|Odyssea
+ark:/w3|urn:cts:latinLit:phi0690.phi003:|Vergilius|Aeneis
+ark:/w4|urn:cts:latinLit:phi0690.phi001:|Vergilius|Aeneis
+ark:/w5|urn:cts:latinLit:phi0474.phi001:|cicero|Epistulae
+#!textindex
+mss|text|location
+ark:/1|urn:cts:greekLit:tlg0012.tlg001:|1r-20v
+ark:/1|urn:cts:greekLit:tlg0012.tlg001:|1r-20v
+ark:/1|urn:cts:greekLit:tlg0012.tlg001:|30
+ark:/1|urn:cts:greekLit:tlg0012.tlg002:|
+ark:/2|urn:cts:greekLit:tlg0012.tlg001:|
+ark:/3|urn:cts:latinLit:phi0690.phi003:|5-9
+ark:/4|urn:cts:greekLit:tlg0012.tlg001:|2
+ark:/5|urn:cts:greekLit:tlg0012.tlg001:|
+ark:/6|urn:cts:latinLit:phi0690.phi001:|
+ark:/9|urn:cts:latinLit:phi0690.phi001:|

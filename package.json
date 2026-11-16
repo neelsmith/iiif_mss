@@ -1,0 +1,9 @@
+{
+  "name": "iiif_mss",
+  "private": true,
+  "description": "Single-page IIIF manuscript browsers built from the biblissima data release",
+  "scripts": {
+    "build": "node src/build.js",
+    "test": "node src/build.js && node --test src/tests/*.test.js"
+  }
+}
