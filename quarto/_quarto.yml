@@ -32,8 +32,8 @@ website:
     right:
       - icon: person-circle
         menu:
-          - text: "agm on github"
-            href: https://github.com/neelsmith/agm
+          - text: "iiif_mss on github"
+            href: https://github.com/neelsmith/iiif_mss
           - text: "Neel Smith: other hobby projects"
             href: https://neelsmith.github.io/avocational/
         aria-label: Home 
