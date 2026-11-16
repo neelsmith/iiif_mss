@@ -3,8 +3,7 @@
 const Loader = (function () {
   "use strict";
 
-  const DEFAULT_URL =
-    "https://raw.githubusercontent.com/neelsmith/biblissima/refs/heads/main/datareleases/current.cex";
+  const DEFAULT_URL = "https://shot.holycross.edu/iiif-mss/current.cex";
 
   // The data location can be overridden with ?data=<url> (used by tests).
   function dataUrl(search) {

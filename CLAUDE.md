@@ -8,7 +8,7 @@
 
 ## Functionality
 
-https://github.com/neelsmith/biblissima has two marimo notebooks named `browsetexts.py` and `browsecollections.py`. This repo should replicate their functionality in two standalone HTML files, `browsetexts.html` and `browsecollections.html`, that can function either when served from a web server, or when opened from a local file. Instead of loading data from a local file, however, these apps should load data from https://raw.githubusercontent.com/neelsmith/biblissima/refs/heads/main/datareleases/current.cex
+https://github.com/neelsmith/biblissima has two marimo notebooks named `browsetexts.py` and `browsecollections.py`. This repo should replicate their functionality in two standalone HTML files, `browsetexts.html` and `browsecollections.html`, that can function either when served from a web server, or when opened from a local file. Instead of loading data from a local file, however, these apps should load data from https://shot.holycross.edu/iiif-mss/current.cex
 
 
 ## Architecture & Directory Structure

@@ -22,9 +22,10 @@
 - Real data: parse about 0.5 s in Node; texts page ready in about 0.7 s from a local server.
 
 ## Not verified
-- fetch() of the real raw.githubusercontent.com URL (no network access from the session).
+- fetch() of the real data URL, https://shot.holycross.edu/iiif-mss/current.cex (the session cannot reach it).
   Check in a browser, from file:// and from a server, and note how long the 67 MB takes.
-- Page needs a downloaded-bytes measurement with GitHub's gzip.
+  The server must send `Access-Control-Allow-Origin: *`, or pages opened from disk cannot read the file.
+- Page needs a downloaded-bytes measurement; check the server compresses the file (gzip).
 
 ## Ideas, not done
 - Cache the release in IndexedDB so repeat visits skip the 67 MB download.

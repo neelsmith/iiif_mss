@@ -5,7 +5,7 @@ marimo notebooks of the same names in the biblissima repository.
 
 ## Loading data
 On open, each page fetches the release file
-(https://raw.githubusercontent.com/neelsmith/biblissima/refs/heads/main/datareleases/current.cex),
+(https://shot.holycross.edu/iiif-mss/current.cex),
 showing a running MB count. About 67 MB of text is parsed in the browser into four lists:
 manuscript manifests (`mss`), texts, and the text index, plus the release version.
 If the fetch fails, an error message replaces the menus. For testing, `?data=<url>` on the
