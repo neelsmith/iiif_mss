@@ -1,0 +1,10 @@
+---
+title: Apps for working with illustrated manuscripts
+---
+
+
+> Browse and view images for manuscripts documented by published IIIF manifests.
+
+
+- [browsetexts.html](./browsetexts.html)
+- [browsecollections.html](./browsecollections.html)
